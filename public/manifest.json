@@ -1,0 +1,16 @@
+{
+  "name": "Aradhya Agarwal Portfolio",
+  "short_name": "AA Portfolio",
+  "description": "Software Engineer Portfolio — Aradhya Agarwal",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#030712",
+  "theme_color": "#2563eb",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}

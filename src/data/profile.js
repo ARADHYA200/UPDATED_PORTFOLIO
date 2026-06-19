@@ -1,0 +1,30 @@
+export const profile = {
+  name: "Aradhya Agarwal",
+  firstName: "Aradhya",
+  lastName: "Agarwal",
+  initials: "AA",
+  role: "Software Engineer",
+  tagline:
+    "Final Year ECE student at NIT Jalandhar building scalable web applications, backend systems, and AI-powered solutions.",
+  openToWork: true,
+  location: "Jalandhar, India",
+  email: "aradhyaagarwal2k131987@gmail.com",
+  phone: "+91 9412288411",
+  resumeUrl: "/resume.pdf",
+  profileImage: "/profile.svg",
+  leetcodeUrl: "https://leetcode.com/u/aradhya_agarwal/",
+  githubUrl: "https://github.com/ARADHYA200",
+  linkedinUrl: "https://linkedin.com/in/aradhya-agarwal-4264062a2",
+  typingRoles: [
+    "Software Engineer",
+    "Full Stack Developer",
+    "Backend Developer",
+    "AI/ML Enthusiast",
+  ],
+  stats: [
+    { value: 400, suffix: "+", label: "LeetCode" },
+    { value: 11, suffix: "+", label: "Projects" },
+    { value: 2, suffix: "", label: "Internships" },
+    { value: 8.54, suffix: "", label: "CGPA", decimals: 2 },
+  ],
+};
