@@ -14,7 +14,7 @@ import {
   SiPostman,
   SiTensorflow,
   SiOpencv,
-  SiDocker,
+  // SiDocker,
   SiHtml5,
   SiCss,
 } from "react-icons/si";
@@ -23,8 +23,8 @@ import {
   Cpu,
   Code2,
   BrainCircuit,
-  Cloud,
-  GitBranch,
+  // Cloud,
+  // GitBranch,
   Layers,
   Radio,
 } from "lucide-react";
@@ -88,24 +88,24 @@ export const skillCategories = [
       { name: "VS Code", proficiency: 92 },
     ],
   },
-  {
-    title: "Cloud",
-    icon: Cloud,
-    skills: [
-      { name: "AWS Basics", proficiency: 65 },
-      { name: "Docker", icon: SiDocker, proficiency: 68 },
-      { name: "Vercel / Netlify", proficiency: 80 },
-    ],
-  },
-  {
-    title: "Version Control",
-    icon: GitBranch,
-    skills: [
-      { name: "Git Workflow", icon: SiGit, proficiency: 90 },
-      { name: "GitHub Actions", icon: SiGithub, proficiency: 70 },
-      { name: "Branching Strategy", proficiency: 82 },
-    ],
-  },
+  // {
+  //   title: "Cloud",
+  //   icon: Cloud,
+  //   skills: [
+  //     { name: "AWS Basics", proficiency: 65 },
+  //     { name: "Docker", icon: SiDocker, proficiency: 68 },
+  //     { name: "Vercel / Netlify", proficiency: 80 },
+  //   ],
+  // },
+  // {
+  //   title: "Version Control",
+  //   icon: GitBranch,
+  //   skills: [
+  //     { name: "Git Workflow", icon: SiGit, proficiency: 90 },
+  //     { name: "GitHub Actions", icon: SiGithub, proficiency: 70 },
+  //     { name: "Branching Strategy", proficiency: 82 },
+  //   ],
+  // },
   {
     title: "Core CS",
     icon: Code2,
@@ -132,7 +132,7 @@ export const techMarquee = [
   { name: "React", icon: SiReact },
   { name: "Node.js", icon: SiNodedotjs },
   { name: "MongoDB", icon: SiMongodb },
-  { name: "Express", icon: SiExpress },
+  { name: "Express.js", icon: SiExpress },
   { name: "JavaScript", icon: SiJavascript },
   { name: "Python", icon: SiPython },
   { name: "C++", icon: SiCplusplus },
@@ -140,7 +140,7 @@ export const techMarquee = [
   { name: "MySQL", icon: SiMysql },
   { name: "Git", icon: SiGit },
   { name: "GitHub", icon: SiGithub },
-  { name: "TensorFlow", icon: SiTensorflow },
+  // { name: "TensorFlow", icon: SiTensorflow },
   { name: "OpenCV", icon: SiOpencv },
-  { name: "Docker", icon: SiDocker },
+  // { name: "Docker", icon: SiDocker },
 ];

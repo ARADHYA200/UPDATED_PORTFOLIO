@@ -19,24 +19,24 @@ export const projects = [
     github: "https://github.com/ARADHYA200/E_COMMERCE_SHOP_PROJ",
     demo: "https://e-commerce-shop-proj.vercel.app",
   },
-  {
-    id: 2,
-    title: "AI Traffic Management",
-    category: "AI / ML",
-    featured: true,
-    description:
-      "Computer Vision system for vehicle counting, traffic density estimation, and emergency vehicle prioritization using YOLO and OpenCV.",
-    image: "/projects/traffic.svg",
-    technologies: ["Python", "YOLO", "OpenCV", "Machine Learning"],
-    features: [
-      "Real-time vehicle detection",
-      "Traffic density analysis",
-      "Emergency vehicle prioritization",
-      "Smart signal control logic",
-    ],
-    github: "https://github.com/ARADHYA200",
-    demo: "https://github.com/ARADHYA200",
-  },
+  // {
+  //   id: 2,
+  //   title: "AI Traffic Management",
+  //   category: "AI / ML",
+  //   featured: true,
+  //   description:
+  //     "Computer Vision system for vehicle counting, traffic density estimation, and emergency vehicle prioritization using YOLO and OpenCV.",
+  //   image: "/projects/traffic.svg",
+  //   technologies: ["Python", "YOLO", "OpenCV", "Machine Learning"],
+  //   features: [
+  //     "Real-time vehicle detection",
+  //     "Traffic density analysis",
+  //     "Emergency vehicle prioritization",
+  //     "Smart signal control logic",
+  //   ],
+  //   github: "https://github.com/ARADHYA200",
+  //   demo: "https://github.com/ARADHYA200",
+  // },
   {
     id: 3,
     title: "Emergency Vehicle Detection",
@@ -44,7 +44,7 @@ export const projects = [
     featured: true,
     description:
       "YOLO-based emergency vehicle detection system enabling intelligent traffic control and priority lane management.",
-    image: "/projects/emergency.svg",
+    image: "/projects/emergency.png",
     technologies: ["YOLO", "Python", "OpenCV", "Deep Learning"],
     features: [
       "Ambulance & fire truck detection",
@@ -53,7 +53,7 @@ export const projects = [
       "High accuracy object detection",
     ],
     github: "https://github.com/ARADHYA200/EMERGENCY_VEHICLE_DETECTION",
-    demo: "https://github.com/ARADHYA200",
+    demo: "https://github.com/ARADHYA200/EMERGENCY_VEHICLE_DETECTION",
   },
   {
     id: 4,
@@ -143,7 +143,7 @@ export const projects = [
       "Admin dashboard reports",
     ],
     github: "https://github.com/ARADHYA200/A2B_CLASSES",
-    demo: "https://github.com/ARADHYA200",
+    demo: "https://github.com/ARADHYA200/A2B_CLASSES",
   },
   {
     id: 9,
@@ -161,7 +161,7 @@ export const projects = [
       "EmailJS contact form",
     ],
     github: "https://github.com/ARADHYA200/UPDATED_PORTFOLIO",
-    demo: "https://github.com/ARADHYA200",
+    demo: "https://updated-portfolio-eight-neon.vercel.app/",
   },
   {
     id: 10,
@@ -179,7 +179,7 @@ export const projects = [
       "Responsive mobile design",
     ],
     github: "https://github.com/ARADHYA200/weather-app",
-    demo: "https://github.com/ARADHYA200",
+    demo: "https://github.com/ARADHYA200/weather-app",
   },
   {
     id: 11,
@@ -197,6 +197,6 @@ export const projects = [
       "Drag-and-drop reorder",
     ],
     github: "https://github.com/ARADHYA200/to-do-list-app",
-    demo: "https://github.com/ARADHYA200",
+    demo: "https://github.com/ARADHYA200/to-do-list-app",
   },
 ];

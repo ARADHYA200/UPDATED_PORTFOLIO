@@ -3,7 +3,7 @@ export const education = [
     degree: "B.Tech in Electronics & Communication Engineering",
     institution: "Dr. B.R. Ambedkar National Institute of Technology, Jalandhar",
     shortInstitution: "NIT Jalandhar",
-    duration: "2022 — Present",
+    duration: "2023 - 2027",
     cgpa: "8.54",
     highlights: [
       "Final year student with strong CS fundamentals alongside ECE curriculum",
@@ -67,19 +67,20 @@ export const timeline = [
   },
   {
     year: "2023",
-    title: "Full Stack Journey",
-    description: "Built first MERN projects — Todo App, Weather App, and Portfolio Website.",
+    title: "Started Building Web Projects",
+    description: "Created Frontend projects— Todo App, Weather App, and Portfolio Website.",
   },
   {
     year: "2024",
-    title: "AI/ML Projects",
-    description: "Developed Traffic Management AI, Spam Classifier, Movie Recommender, and more.",
+    title: "Full Stack Journey",
+    description: "Built first MERN projects including E-Commerce Platform and Admin Dashboard.",
   },
   {
     year: "2025",
-    title: "Internships & Growth",
-    description: "Completed internships at SkillCraft Technology and Ad Infocom Pvt Ltd.",
+    title: "AI/ML Projects",
+    description: "Developed Traffic Management AI, Spam Classifier, Movie Recommender, and more.",
   },
+
   {
     year: "2026",
     title: "Final Year & Job Search",

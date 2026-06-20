@@ -20,7 +20,7 @@ export const experiences = [
     company: "Ad Infocom Pvt Ltd",
     role: "Embedded Systems Intern",
     duration: "June 2025 — July 2025",
-    location: "On-site",
+    location: "Remote",
     type: "Internship",
     points: [
       "Developed Arduino-based embedded projects including Digital Counter and Obstacle Detector.",

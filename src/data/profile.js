@@ -7,7 +7,7 @@ export const profile = {
   tagline:
     "Final Year ECE student at NIT Jalandhar building scalable web applications, backend systems, and AI-powered solutions.",
   openToWork: true,
-  location: "Jalandhar, India",
+  location: "Bareilly, India",
   email: "aradhyaagarwal2k131987@gmail.com",
   phone: "+91 9412288411",
   resumeUrl: "/resume.pdf",
