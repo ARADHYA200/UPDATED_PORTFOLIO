@@ -3,32 +3,47 @@ import { motion } from "framer-motion";
 import { TypeAnimation } from "react-type-animation";
 import { FileText, ArrowDown, FolderKanban } from "lucide-react";
 import { Link } from "react-scroll";
-import CountUp from "react-countup";
-import { useInView } from "react-intersection-observer";
+// import CountUp from "react-countup";
+// import { useInView } from "react-intersection-observer";
 import { profile } from "../../data/profile";
 import { socialLinks } from "../../data/socialLinks";
 
-function AnimatedStat({ value, suffix, label, decimals = 0 }) {
-  const { ref, inView } = useInView({ triggerOnce: true, threshold: 0.3 });
-
+function AnimatedStat({ value, suffix, label }) {
   return (
-    <div ref={ref} className="glass rounded-2xl p-4 sm:p-5 text-center hover-glow transition-all">
+    <div className="glass rounded-2xl p-4 sm:p-5 text-center hover-glow transition-all">
       <h2 className="text-2xl sm:text-3xl font-bold text-blue-400">
-        {inView ? (
-          <CountUp
-            end={value}
-            duration={2}
-            decimals={decimals}
-            suffix={suffix}
-          />
-        ) : (
-          `0${suffix}`
-        )}
+        {value}
+        {suffix}
       </h2>
-      <p className="text-gray-400 mt-1 text-sm sm:text-base">{label}</p>
+
+      <p className="text-gray-400 mt-1 text-sm sm:text-base">
+        {label}
+      </p>
     </div>
   );
 }
+
+// function AnimatedStat({ value, suffix, label, decimals = 0 }) {
+//   const { ref, inView } = useInView({ triggerOnce: true, threshold: 0.3 });
+
+//   return (
+//     <div ref={ref} className="glass rounded-2xl p-4 sm:p-5 text-center hover-glow transition-all">
+//       <h2 className="text-2xl sm:text-3xl font-bold text-blue-400">
+//         {inView ? (
+//           <CountUp
+//             end={value}
+//             duration={2}
+//             decimals={decimals}
+//             suffix={suffix}
+//           />
+//         ) : (
+//           `0${suffix}`
+//         )}
+//       </h2>
+//       <p className="text-gray-400 mt-1 text-sm sm:text-base">{label}</p>
+//     </div>
+//   );
+// }
 
 export default function Hero() {
   const [mouse, setMouse] = useState({ x: 0, y: 0 });

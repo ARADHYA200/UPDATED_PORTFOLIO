@@ -11,7 +11,7 @@ export const profile = {
   email: "aradhyaagarwal2k131987@gmail.com",
   phone: "+91 9412288411",
   resumeUrl: "/resume.pdf",
-  profileImage: "/profile.svg",
+  profileImage: "/profile.png",
   leetcodeUrl: "https://leetcode.com/u/aradhya_agarwal/",
   githubUrl: "https://github.com/ARADHYA200",
   linkedinUrl: "https://linkedin.com/in/aradhya-agarwal-4264062a2",

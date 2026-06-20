@@ -1,3 +1,4 @@
+
 import {
   SiCplusplus,
   SiPython,
@@ -128,19 +129,18 @@ export const skillCategories = [
 ];
 
 export const techMarquee = [
-  "React",
-  "Node.js",
-  "MongoDB",
-  "Python",
-  "C++",
-  "Express.js",
-  "Tailwind CSS",
-  "OpenCV",
-  "YOLO",
-  "REST APIs",
-  "Git",
-  "MySQL",
-  "TensorFlow",
-  "JavaScript",
-  "MERN Stack",
+  { name: "React", icon: SiReact },
+  { name: "Node.js", icon: SiNodedotjs },
+  { name: "MongoDB", icon: SiMongodb },
+  { name: "Express", icon: SiExpress },
+  { name: "JavaScript", icon: SiJavascript },
+  { name: "Python", icon: SiPython },
+  { name: "C++", icon: SiCplusplus },
+  { name: "Tailwind", icon: SiTailwindcss },
+  { name: "MySQL", icon: SiMysql },
+  { name: "Git", icon: SiGit },
+  { name: "GitHub", icon: SiGithub },
+  { name: "TensorFlow", icon: SiTensorflow },
+  { name: "OpenCV", icon: SiOpencv },
+  { name: "Docker", icon: SiDocker },
 ];

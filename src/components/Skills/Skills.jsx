@@ -1,6 +1,5 @@
 import { motion } from "framer-motion";
 import { useInView } from "react-intersection-observer";
-import Marquee from "react-fast-marquee";
 import { skillCategories, techMarquee } from "../../data/skills";
 import SectionHeading from "../ui/SectionHeading";
 import RevealOnScroll from "../effects/RevealOnScroll";
@@ -40,19 +39,53 @@ export default function Skills() {
       />
 
       <RevealOnScroll className="mt-10">
-        <div className="glass rounded-2xl py-4 overflow-hidden">
-          <Marquee gradient gradientColor={[3, 7, 18]} speed={40} pauseOnHover>
-            {techMarquee.map((tech) => (
-              <span
-                key={tech}
-                className="mx-6 text-gray-400 font-medium text-sm sm:text-base"
+        <div className="glass rounded-3xl p-6 border border-white/10">
+          <div className="flex flex-wrap justify-center gap-4">
+            {techMarquee.map(({ name, icon: Icon }) => (
+              <motion.div
+                key={name}
+                whileHover={{ y: -4, scale: 1.05 }}
+                transition={{ duration: 0.2 }}
+                className="flex items-center gap-3 px-5 py-3 rounded-2xl
+                bg-white/5 border border-white/10
+                hover:border-cyan-400/40
+                hover:bg-cyan-500/10
+                cursor-default"
               >
-                {tech}
-              </span>
+                {Icon && <Icon size={22} className="text-cyan-400" />}
+                <span className="font-medium text-gray-200">
+                  {name}
+                </span>
+              </motion.div>
             ))}
-          </Marquee>
+          </div>
         </div>
       </RevealOnScroll>
+
+      {/* <RevealOnScroll className="mt-10">
+        <div className="glass rounded-2xl overflow-hidden border border-white/10 py-4">
+          <div className="marquee">
+            <div className="marquee-content">
+              {[...techMarquee, ...techMarquee].map(({ name, icon: Icon }, index) => (
+                <div
+                  key={`${name}-${index}`}
+                  className="flex items-center gap-3 mx-8"
+                >
+                  {Icon && (
+                    <div className="w-10 h-10 rounded-xl bg-blue-500/10 border border-blue-500/20 flex items-center justify-center">
+                      <Icon size={20} className="text-cyan-400" />
+                    </div>
+                  )}
+
+                  <span className="text-gray-200 font-medium whitespace-nowrap">
+                    {name}
+                  </span>
+                </div>
+              ))}
+            </div>
+          </div>
+        </div>
+      </RevealOnScroll> */}
 
       <div className="grid lg:grid-cols-2 gap-6 sm:gap-8 mt-16">
         {skillCategories.map((category, index) => {

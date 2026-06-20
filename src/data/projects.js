@@ -8,7 +8,7 @@ export const projects = [
     featured: true,
     description:
       "Production-ready MERN e-commerce platform with authentication, admin dashboard, product management, shopping cart, and secure REST APIs.",
-    image: "/projects/ecommerce.svg",
+    image: "/projects/ecommerce.png",
     technologies: ["React", "Node.js", "Express", "MongoDB", "JWT", "REST API"],
     features: [
       "User authentication & authorization",
@@ -16,8 +16,8 @@ export const projects = [
       "Shopping cart & checkout flow",
       "Secure REST API architecture",
     ],
-    github: "https://github.com/ARADHYA200",
-    demo: "https://github.com/ARADHYA200",
+    github: "https://github.com/ARADHYA200/E_COMMERCE_SHOP_PROJ",
+    demo: "https://e-commerce-shop-proj.vercel.app",
   },
   {
     id: 2,
@@ -52,7 +52,7 @@ export const projects = [
       "Traffic signal integration",
       "High accuracy object detection",
     ],
-    github: "https://github.com/ARADHYA200",
+    github: "https://github.com/ARADHYA200/EMERGENCY_VEHICLE_DETECTION",
     demo: "https://github.com/ARADHYA200",
   },
   {
@@ -62,7 +62,7 @@ export const projects = [
     featured: false,
     description:
       "ML-powered recommendation engine suggesting personalized movies based on user preferences and collaborative filtering.",
-    image: "/projects/movie.svg",
+    image: "/projects/movie.png",
     technologies: ["Python", "Pandas", "Scikit-Learn", "NumPy"],
     features: [
       "Content-based filtering",
@@ -70,8 +70,8 @@ export const projects = [
       "Similarity scoring",
       "Interactive recommendations",
     ],
-    github: "https://github.com/ARADHYA200",
-    demo: "https://github.com/ARADHYA200",
+    github: "https://github.com/ARADHYA200/AI_MOVIE_TASTE_DNA",
+    demo: "https://ai-movie-taste-dna.vercel.app",
   },
   {
     id: 5,
@@ -80,7 +80,7 @@ export const projects = [
     featured: false,
     description:
       "Machine Learning application using NLP techniques to classify spam and legitimate emails with high accuracy.",
-    image: "/projects/spam.svg",
+    image: "/projects/spam.png",
     technologies: ["Python", "NLP", "Scikit-Learn", "Pandas"],
     features: [
       "Text preprocessing pipeline",
@@ -88,8 +88,8 @@ export const projects = [
       "TF-IDF vectorization",
       "Model evaluation metrics",
     ],
-    github: "https://github.com/ARADHYA200",
-    demo: "https://github.com/ARADHYA200",
+    github: "https://github.com/ARADHYA200/AI_ML_EMAIL_CHECK",
+    demo: "https://ai-ml-email-check-ex4c.vercel.app",
   },
   {
     id: 6,
@@ -98,7 +98,7 @@ export const projects = [
     featured: false,
     description:
       "AI-powered study planner helping students organize schedules, set goals, and optimize learning with Gemini API integration.",
-    image: "/projects/planner.svg",
+    image: "/projects/planner.png",
     technologies: ["React", "Node.js", "Gemini API", "MongoDB"],
     features: [
       "AI-generated study plans",
@@ -106,8 +106,8 @@ export const projects = [
       "Progress tracking dashboard",
       "Smart goal recommendations",
     ],
-    github: "https://github.com/ARADHYA200",
-    demo: "https://github.com/ARADHYA200",
+    github: "https://github.com/ARADHYA200/AI_STUDY_PLANNER",
+    demo: "https://ai-study-planner-rust.vercel.app",
   },
   {
     id: 7,
@@ -116,7 +116,7 @@ export const projects = [
     featured: false,
     description:
       "Secure digital vault with authentication, conditional access rules, and encrypted file storage management.",
-    image: "/projects/vault.svg",
+    image: "/projects/vault.png",
     technologies: ["React", "Node.js", "MongoDB", "JWT"],
     features: [
       "Conditional access rules",
@@ -124,8 +124,8 @@ export const projects = [
       "Role-based permissions",
       "Audit logging",
     ],
-    github: "https://github.com/ARADHYA200",
-    demo: "https://github.com/ARADHYA200",
+    github: "https://github.com/ARADHYA200/CONDITIONAL_DIGITAL_VAULT",
+    demo: "https://conditional-digital-vault.vercel.app",
   },
   {
     id: 8,
@@ -134,7 +134,7 @@ export const projects = [
     featured: false,
     description:
       "SQL-based coaching management application with student enrollment, fee tracking, and attendance management.",
-    image: "/projects/coaching.svg",
+    image: "/projects/coaching.png",
     technologies: ["MySQL", "React", "Node.js", "Express"],
     features: [
       "Student enrollment system",
@@ -142,7 +142,7 @@ export const projects = [
       "Attendance tracking",
       "Admin dashboard reports",
     ],
-    github: "https://github.com/ARADHYA200",
+    github: "https://github.com/ARADHYA200/A2B_CLASSES",
     demo: "https://github.com/ARADHYA200",
   },
   {
@@ -152,7 +152,7 @@ export const projects = [
     featured: false,
     description:
       "Premium personal portfolio built with React, Tailwind CSS, and Framer Motion featuring glassmorphism and smooth animations.",
-    image: "/projects/portfolio.svg",
+    image: "/projects/portfolio.png",
     technologies: ["React", "Tailwind CSS", "Framer Motion", "Vite"],
     features: [
       "Glassmorphism UI design",
@@ -160,7 +160,7 @@ export const projects = [
       "Responsive layout",
       "EmailJS contact form",
     ],
-    github: "https://github.com/ARADHYA200",
+    github: "https://github.com/ARADHYA200/UPDATED_PORTFOLIO",
     demo: "https://github.com/ARADHYA200",
   },
   {
@@ -170,7 +170,7 @@ export const projects = [
     featured: false,
     description:
       "Responsive weather application with real-time data from OpenWeather API, location search, and beautiful UI.",
-    image: "/projects/weather.svg",
+    image: "/projects/weather.png",
     technologies: ["React", "OpenWeather API", "CSS"],
     features: [
       "Real-time weather data",
@@ -178,7 +178,7 @@ export const projects = [
       "5-day forecast display",
       "Responsive mobile design",
     ],
-    github: "https://github.com/ARADHYA200",
+    github: "https://github.com/ARADHYA200/weather-app",
     demo: "https://github.com/ARADHYA200",
   },
   {
@@ -188,7 +188,7 @@ export const projects = [
     featured: false,
     description:
       "Feature-rich todo application with task management, filtering, local storage persistence, and clean UX.",
-    image: "/projects/todo.svg",
+    image: "/projects/todo.png",
     technologies: ["React", "JavaScript", "Local Storage", "CSS"],
     features: [
       "Add, edit, delete tasks",
@@ -196,7 +196,7 @@ export const projects = [
       "Local storage persistence",
       "Drag-and-drop reorder",
     ],
-    github: "https://github.com/ARADHYA200",
+    github: "https://github.com/ARADHYA200/to-do-list-app",
     demo: "https://github.com/ARADHYA200",
   },
 ];

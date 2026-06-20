@@ -5,7 +5,7 @@ export const experiences = [
     icon: Briefcase,
     company: "SkillCraft Technology",
     role: "Frontend Development Intern",
-    duration: "June 2025 — July 2025",
+    duration: "July 2025 — August 2025",
     location: "Remote",
     type: "Internship",
     points: [
