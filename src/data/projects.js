@@ -160,7 +160,7 @@ export const projects = [
       "Responsive layout",
       "EmailJS contact form",
     ],
-    github: "https://github.com/ARADHYA200/UPDATED_PORTFOLIO",
+    github: "https://github.com/ARADHYA200/developer-portfolio",
     demo: "https://updated-portfolio-eight-neon.vercel.app/",
   },
   {
