@@ -235,7 +235,7 @@ export const projects = [
     "Interactive map and quest system",
     "Leaderboard & player statistics",
   ],
-  github: "https://github.com/ARADHYA200/VIRTUAL_CAMPUS_OS",
+  github: "https://github.com/ARADHYA200/VIRTUAL_CAMPUS",
   demo: "https://virtual-campus-beryl.vercel.app/",
 },
   {
